@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.main__block{
+    height: 986px;
+    background: linear-gradient(90deg, rgba(75, 56, 98, 1), rgba(212, 91, 112, 1));
+}
+.main__line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line__img{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.search{
+    margin-top: 35px;
+    margin-right: 50px;
+}
+.search__input{
+    background-color: transparent;
+    border: 2px solid #fcfcfc;
+    border-radius: 3px;
+    width: 184px;
+    height: 41px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.search__btn{
+    width: 84px;
+    height: 41px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid #fcfcfc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    z-index: 2;
+}
+.octopus{
+    margin-left: 30px;
+    margin-top: -30px;
+    z-index: -1;
+}
+.title{
+    text-align: center;
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+}
+.txt1{
+    text-align: center;
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+.txt{
+    text-align: center;
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+}
+.click__btn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.click{
+    background-color: #d75c78;
+    color: #fff;
+    width: 262px;
+    height: 55px;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #000000;
+}
+.bubbles{
+    position: absolute;
+    top: 620px;
+}
+.bubbles2{
+    position: absolute;
+    right: 0;
+    top: 660px
+}
+.block__info{
+    height: 1200px;
+    background: linear-gradient(rgba(79, 57, 99, 1), rgba(118, 68, 105, 1));
+}
+.info__blocks{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.info__blocks2{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 800px;
+    margin-top: -550px;
+}
+.info__block1{
+    margin-top: 150px;
+    width: 638px;
+    height: 308px;
+    background-color: #523A64;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 3px;
+}
+.block1__title{
+    margin-top: 10px;
+    font-size: 80px;
+    color: #944b6e;
+}
+.block1__topic{
+    text-align: center;
+    color: #fcfcfc;
+}
+.block1__txt{
+    padding-top: 30px;
+    margin-left: 160px;
+    color: #fcfcfc;
+    padding-right: 10px;
+}
+.block2__title{
+    margin-top: 10px;
+    font-size: 80px;
+    color: #944b6e;
+}
+.block2__topic{
+    margin-left: 160px;
+    color: #fcfcfc;
+}
+.block2__txt{
+    padding-top: 30px;
+    margin-left: 160px;
+    color: #fcfcfc;
+    padding-right: 10px;
+}
+.block3__title{
+    margin-top: 10px;
+    font-size: 80px;
+    color: #944b6e;
+}
+.block3__topic{
+    margin-left: 160px;
+    color: #fcfcfc;
+}
+.block3__txt{
+    padding-top: 30px;
+    margin-left: 160px;
+    color: #fcfcfc;
+    padding-right: 10px;
+}
+.block4__title{
+    margin-top: 10px;
+    font-size: 80px;
+    color: #944b6e;
+}
+.block4__topic{
+    margin-left: 160px;
+    color: #fcfcfc;
+}
+.block4__txt{
+    padding-top: 30px;
+    margin-left: 160px;
+    color: #fcfcfc;
+    padding-right: 10px;
+}
+.info__block2{
+    width: 638px;
+    height: 308px;
+    background-color: #523A64;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 3px;
+}
+.info__block3{
+    margin-top: 80px;
+    width: 638px;
+    height: 308px;
+    background-color: #523A64;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 3px;
+}
+.info__block4{
+    margin-top: 80px;
+    width: 638px;
+    height: 308px;
+    background-color: #523A64;
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 3px;
+}
+.aqua1{
+    position: absolute;
+    top: 980px;
+    right: 80px;
+    width: 450px;
+}
+.aqua2{
+    position: absolute;
+    top: 1800px;
+}
+.bubbles3{
+    position: absolute;
+    right: 40px;
+}
+.last__block{
+    height: 1200px;
+    background: linear-gradient(rgba(118, 68, 105, 1), rgba(44, 33, 66, 1));
+}
+.bottom{
+    position: absolute;
+    top: 3050px;
+    width: 1512px;
+}
+.fish1{
+    position: absolute;
+    top: 2800px;
+}
+.lodka{
+    position: absolute;
+    right: 0px;
+}
+.block__cards{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+.card1{
+    width: 500px;
+    height: 500px;
+    background-image: url(./img/Фон1\ 1.png);
+    background-size: cover;
+}
+.card1__title{
+    color: #fcfcfc;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.card1__txt{
+    color: #fcfcfc;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.card1__info{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: #fcfcfc;
+}
+.button-card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1__btn{
+    padding: 30px 50px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 4px solid #ffffff;
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: large;
+    color: #fcfcfc;
+}
+.card2{
+    width: 500px;
+    height: 500px;
+    background-image: url(./img/Фон2\ 1.png);
+    background-size: cover;
+}
+.card2__title{
+    color: #fcfcfc;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.card2__txt{
+    color: #fcfcfc;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.card2__info{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: #fcfcfc;
+}
+.button-card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2__btn{
+    padding: 30px 50px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 4px solid #ffffff;
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: large;
+    color: #fcfcfc;
+}
